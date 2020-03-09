@@ -1,0 +1,24 @@
+name: Yeebo v1
+description: Tweaks Open Social to our needs
+package: Custom
+base theme: socialblue
+logo: images/branding/yeebo-logo.png
+
+type: theme
+core: 8.x
+
+regions:
+  hidden: Hidden
+  header: Header
+  breadcrumb: Breadcrumb
+  hero: Hero
+  secondary_navigation: Secondary navigation
+  content_top: Content top
+  title: Page title
+  content: Content
+  complementary_top: Complementary top
+  complementary_bottom: Complementary bottom
+  content_bottom: Content bottom
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  footer: Footer
