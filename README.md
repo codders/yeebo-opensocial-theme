@@ -4,4 +4,4 @@ Created by Beat and Arthur
 
 ## Changelog
 
-- TBD
+- Modified `.gitignore` and added `.editorconfig`
