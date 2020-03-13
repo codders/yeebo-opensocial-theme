@@ -1,0 +1,30 @@
+.maintenance-header {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.maintenance-header__link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.maintenance-header__img {
+    display: inline-block;
+}
+
+.maintenance-header__heading {
+    text-align: center;
+}
+
+.maintenance-main {
+}
+
+.maintenance-main__heading {
+    text-align: center;
+}
+
+.maintenance-main__text {
+    text-align: center;
+}
