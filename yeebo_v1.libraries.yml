@@ -1,3 +1,9 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/layout-tweaks.css: {}
+
 maintenance:
   version: 1.x
   css:

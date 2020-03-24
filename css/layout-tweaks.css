@@ -1,0 +1,4 @@
+/* Bugfix Firefox Mobile: The expanded user menu was behind the content (lower z-index) */
+.toolbar-vertical .navbar-default {
+    z-index: 3;
+}

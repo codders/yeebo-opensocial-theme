@@ -7,6 +7,9 @@ logo: images/branding/yeebo-logo.png
 type: theme
 core: 8.x
 
+libraries:
+  - yeebo_v1/global-styling
+
 regions:
   hidden: Hidden
   header: Header
