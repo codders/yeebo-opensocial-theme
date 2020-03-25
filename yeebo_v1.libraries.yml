@@ -2,7 +2,7 @@ global-styling:
   version: 1.x
   css:
     theme:
-      css/layout-tweaks.css: {}
+      css/layout-tweaks.css: { weight:2000 }
 
 maintenance:
   version: 1.x

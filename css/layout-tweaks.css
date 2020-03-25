@@ -2,3 +2,8 @@
 .toolbar-vertical .navbar-default {
     z-index: 3;
 }
+
+/* removing header gradient, adding only a slight background to keep readability */
+.hero__bgimage-overlay {
+    background: rgba(0,0,0,0.15) !important;
+}
