@@ -43,7 +43,7 @@
 
   {% if not label_hidden %}
     {# yeebo fix: a book page teaser in the "expore > community" section printed the label "Image" #}
-    {% if field_name == "field_page_image" or field_name == "field_book_image" %}
+    {% if field_name == "field_page_image" or field_name == "field_book_page_image" or field_name == "field_book_image" %}
       {# don't do anything #}
     {% else %}
       <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
