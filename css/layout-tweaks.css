@@ -7,3 +7,15 @@
 .hero__bgimage-overlay {
     background: rgba(0,0,0,0.15) !important;
 }
+
+/* removing margin of last item */
+/* .body-text p, */
+.field p {
+    margin-bottom: 0;
+}
+
+/* Styling custom block on front page */
+#block-feedbackteaser {
+    padding: 1.25rem;
+    text-align: center;
+}
