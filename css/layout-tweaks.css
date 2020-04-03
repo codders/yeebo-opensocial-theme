@@ -8,6 +8,10 @@
     .navbar-collapse .dropdown-menu {
         top: 0;
     }
+    /* Complementary section was sticking to header */
+    .region--complementary {
+        margin-top: 1.75em;
+    }
 }
 
 /* removing header gradient, adding only a slight background to keep readability */

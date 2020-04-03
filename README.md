@@ -4,6 +4,7 @@ Created by Beat and Arthur
 
 ## Changelog
 
+- Mobile fix: Complementary section was sticking to header
 - Bugfix Firefox mobile: sub menu position was totally off.
 - Added styles for custom feedback teaser block that has been added after navigation update.
 - Removed unwanted image label that was printed above the image in a page teaser.
