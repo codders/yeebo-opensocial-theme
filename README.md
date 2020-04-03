@@ -4,6 +4,7 @@ Created by Beat and Arthur
 
 ## Changelog
 
+- Removed group title in group > about description
 - Added `yeebo_v1.theme` file with a function to set a class if the `complementary_top` region is empty (for usage in CSS).
 - Mobile fix: Complementary section was sticking to header
 - Bugfix Firefox mobile: sub menu position was totally off.
