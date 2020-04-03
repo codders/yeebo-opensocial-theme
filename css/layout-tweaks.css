@@ -1,6 +1,13 @@
-/* Bugfix Firefox Mobile: The expanded user menu was behind the content (lower z-index) */
-.toolbar-vertical .navbar-default {
-    z-index: 3;
+/* mobile fixes */
+@media (max-width: 899px) {
+    /* Bugfix Firefox Mobile: The expanded user menu was behind the content (lower z-index) */
+    .toolbar-vertical .navbar-default {
+        z-index: 3;
+    }
+    /* Bugfix Firefox mobile: sub menu position was totally off. */
+    .navbar-collapse .dropdown-menu {
+        top: 0;
+    }
 }
 
 /* removing header gradient, adding only a slight background to keep readability */
