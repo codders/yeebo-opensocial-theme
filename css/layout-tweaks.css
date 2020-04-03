@@ -12,6 +12,13 @@
     .region--complementary {
         margin-top: 1.75em;
     }
+    /* if complementary top is empty, remove margin */
+    .layout-no-complementary-top .region--complementary {
+        margin-top: 0;
+    }
+    .region--title + .region--complementary {
+        margin-top: 0;
+    }
 }
 
 /* removing header gradient, adding only a slight background to keep readability */
