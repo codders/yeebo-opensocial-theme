@@ -30,7 +30,9 @@
 #block-feedbackteaser {
     padding: 0.75rem;
     text-align: center;
-    background: #106278;
+    /* add Yeebo brand color at some point later */
+    /* background: #106278; */
+    background: #006666;
     color: white;
 }
 
