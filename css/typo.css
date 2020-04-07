@@ -1,0 +1,10 @@
+/* removing margin of last item */
+.body-text p:last-child,
+.field p:last-child {
+    margin-bottom: 0;
+}
+
+/* make sure to keep some space between text and vote widget */
+.body-text + .vote-widget {
+    margin-top: 0.75rem;
+}

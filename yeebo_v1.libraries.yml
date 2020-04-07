@@ -3,6 +3,7 @@ global-styling:
   css:
     theme:
       css/layout-tweaks.css: { weight:2000 }
+      css/typo.css: { weight:2000 }
 
 maintenance:
   version: 1.x

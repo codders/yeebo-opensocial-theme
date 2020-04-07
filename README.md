@@ -4,6 +4,8 @@ Created by Beat and Arthur
 
 ## Changelog
 
+- Feedback link highlighted on landing page
+- Hide book page header that is misteriously displayed twice (in the case of "Add Links")
 - Removed group title in group > about description
 - Added `yeebo_v1.theme` file with a function to set a class if the `complementary_top` region is empty (for usage in CSS).
 - Mobile fix: Complementary section was sticking to header

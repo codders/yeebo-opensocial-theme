@@ -26,14 +26,15 @@
     background: rgba(0,0,0,0.15) !important;
 }
 
-/* removing margin of last item */
-/* .body-text p, */
-.field p {
-    margin-bottom: 0;
-}
-
 /* Styling custom block on front page */
 #block-feedbackteaser {
-    padding: 1.25rem;
+    padding: 0.75rem;
     text-align: center;
+    background: #106278;
+    color: white;
+}
+
+/* hide book page header that is misteriously displayed twice (in the case of "Add Links") */
+.page-node-type-book section.with-title-region > .region--title {
+    display: none;
 }
