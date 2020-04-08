@@ -36,7 +36,19 @@
     color: white;
 }
 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Book Page
+
+*/
+
 /* hide book page header that is misteriously displayed twice (in the case of "Add Links") */
 .page-node-type-book section.with-title-region > .region--title {
     display: none;
+}
+
+/* making sure there's some space between the header and the table of contents */
+.page-node-type-book .block-book-navigation {
+    margin-top: 1rem;
 }
