@@ -3,6 +3,10 @@
     height: auto !important;
 }
 
+.fc-day-grid-event:focus {
+    color: #fff;
+}
+
 /* remove time in order to make a little more space for the event title */
 .fc-day-grid-event .fc-time {
     display: none;
