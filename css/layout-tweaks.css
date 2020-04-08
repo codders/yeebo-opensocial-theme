@@ -50,5 +50,5 @@ Book Page
 
 /* making sure there's some space between the header and the table of contents */
 .page-node-type-book .block-book-navigation {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
