@@ -33,6 +33,10 @@
 /* mobile styles */
 @media (max-width:767px) {
 
+    .fc-agendaWeek-button {
+        display: none;
+    }
+
     .fc-today-button {
         margin-left: 0 !important;
     }
