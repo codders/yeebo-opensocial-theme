@@ -10,8 +10,12 @@ function yeebo_v1_preprocess_html(&$variables) {
   //   $variables['attributes']['class'][] = 'node-' . $node->id();
   // }
   // check if sidebar has content. If not, set class so we can access it with CSS
-  $has_complementary_top_content = !empty(trim(strip_tags(render($variables['page']['complementary_top']))));
-  $has_complementary_bottom_content = !empty(trim(strip_tags(render($variables['page']['complementary_bottom']))));
+  // source: https://www.drupal.org/forum/support/module-development-and-code-questions/2016-04-07/drupal-8-regions-with-and-empty
+  $rendered_complementary_top_content = \Drupal::service('renderer')->renderRoot($variables['page']['complementary_top']);
+  $rendered_complementary_bottom_content = \Drupal::service('renderer')->renderRoot($variables['page']['complementary_bottom']);
+  $has_complementary_top_content = !empty(trim(strip_tags($rendered_complementary_top_content)));
+  $has_complementary_bottom_content = !empty(trim(strip_tags(render($rendered_complementary_bottom_content))));
+  // ksm($has_complementary_top_content);
   if (!$has_complementary_top_content) {
     $variables['attributes']['class'][] = 'layout-no-complementary-top';
   }

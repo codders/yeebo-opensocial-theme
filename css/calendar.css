@@ -1,0 +1,84 @@
+/* remove height to display entire calendar */
+.fc-scroller {
+    height: auto !important;
+}
+
+/* remove time in order to make a little more space for the event title */
+.fc-day-grid-event .fc-time {
+    display: none;
+}
+.fc-day-grid-event .fc-title {
+    font-size: 0.6rem;
+}
+
+.fc-more-cell .fc-more {
+    background: #ddd;
+    border-radius: 3px;
+    padding: 0.2em;
+    font-size: 0.6rem;
+}
+
+.fc-popover .fc-title {
+    font-size: 1rem;
+}
+
+.fc-center h2 {
+    font-size: 1.5rem;
+}
+
+/* mobile styles */
+@media (max-width:767px) {
+
+    .fc-today-button {
+        margin-left: 0 !important;
+    }
+
+    .fc-toolbar .fc-button-group {
+        float: right !important;
+    }
+
+    .fc-toolbar .fc-left {
+        display: block;
+        float: none;
+    }
+
+    .fc-toolbar .fc-left:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .fc-toolbar .fc-right {
+        display: block;
+        float: none;
+        margin-top: 0.75rem;
+    }
+
+    .fc-toolbar .fc-right:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .fc-toolbar .fc-center {
+        display: block;
+        margin-top: 1.5rem;
+    }
+
+    .fc-toolbar .fc-center h2 {
+        float: none;
+    }
+
+    .fc-day-grid-event .fc-title {
+        font-size: 0.5rem;
+    }
+
+    .fc-more-cell .fc-more {
+        font-size: 0.5rem;
+    }
+
+    .fc-popover .fc-title {
+        font-size: 0.75rem;
+    }
+
+}

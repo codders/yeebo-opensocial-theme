@@ -4,6 +4,7 @@ global-styling:
     theme:
       css/layout-tweaks.css: { weight:2000 }
       css/typo.css: { weight:2000 }
+      css/calendar.css: { weight:2000 }
 
 maintenance:
   version: 1.x
