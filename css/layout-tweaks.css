@@ -8,7 +8,9 @@ Only show menu for logged-in users
 .user-logged-in .menu-main { display: block; }
 
 .navbar__open-search-control { display: none; }
-.user-logged-in .navbar__open-search-control { display: block; }
+@media (min-width: 900px) {
+    .user-logged-in .navbar__open-search-control { display: block; }
+}
 
 .navbar-toggle { display: none; }
 @media (max-width: 899px) {
