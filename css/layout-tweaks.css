@@ -11,7 +11,7 @@ Only show menu for logged-in users
 .user-logged-in .navbar__open-search-control { display: block; }
 
 .navbar-toggle { display: none; }
-.user-logged-in .navbar-toggle { display: none; }
+.user-logged-in .navbar-toggle { display: block; }
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
