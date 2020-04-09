@@ -1,4 +1,25 @@
-/* mobile fixes */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Only show menu for logged-in users
+
+*/
+
+.menu-main { display: none; }
+.user-logged-in .menu-main { display: block; }
+
+.navbar__open-search-control { display: none; }
+.user-logged-in .navbar__open-search-control { display: block; }
+
+.navbar-toggle { display: none; }
+.user-logged-in .navbar-toggle { display: none; }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Mobile fixes
+
+*/
+
 @media (max-width: 899px) {
     /* Bugfix Firefox Mobile: The expanded user menu was behind the content (lower z-index) */
     .toolbar-vertical .navbar-default {

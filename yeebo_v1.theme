@@ -1,5 +1,25 @@
 <?php
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Registering own template
+
+https://www.drupal.org/docs/8/api/layout-api/how-to-register-layouts
+https://www.drupal.org/project/entity_reference_layout/issues/3060272
+
+*/
+
+// function yeebo_v1_theme() {
+//   return [
+//     'one_column' => [
+//       'template' => 'templates/one-column',
+//       // layout_plugin expects the theme hook to be declared with this:
+//       'render element' => 'content',
+//     ],
+//   ];
+// }
+
+
 /**
 * Adds class to empty regions
 */

@@ -1,0 +1,35 @@
+# https://www.drupal.org/docs/8/api/layout-api/how-to-register-layouts
+# one_column:
+#   label: 'One column'
+#   category: 'Custom Yeebo Layouts'
+#   template: templates/one-column
+#   default_region: content
+#   regions:
+#     hidden:
+#       label: Hidden
+#     header:
+#       label: Header
+#     breadcrumb:
+#       label: Breadcrumb
+#     hero:
+#       label: Hero
+#     secondary_navigation:
+#       label: Secondary navigation
+#     content_top:
+#       label: Content top
+#     title:
+#       label: Page title
+#     content:
+#       label: Content
+#     complementary_top:
+#       label: Complementary top
+#     complementary_bottom:
+#       label: Complementary bottom
+#     content_bottom:
+#       label: Content bottom
+#     sidebar_first:
+#       label: Sidebar First
+#     sidebar_second:
+#       label: Sidebar Second
+#     footer:
+#       label: Footer
