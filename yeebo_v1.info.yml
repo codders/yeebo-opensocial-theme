@@ -9,6 +9,7 @@ core: 8.x
 
 libraries:
   - yeebo_v1/global-styling
+  - yeebo_v1/global-scripts
 
 regions:
   hidden: Hidden

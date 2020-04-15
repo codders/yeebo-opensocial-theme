@@ -34,6 +34,11 @@
     display: none;
 }
 
+/* hides dropdown that showed up before initializing calendar */
+.locale-selector {
+    display: none;
+}
+
 /* mobile styles */
 @media (max-width:767px) {
 
