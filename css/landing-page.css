@@ -1,0 +1,13 @@
+.page-node-type-landing-page .cover-wrap {
+    justify-content: flex-end;
+}
+
+@media (max-width: 899px) {
+    /* Tweaking buttons on landing page */
+    .page-node-type-landing-page .btn-lg {
+        font-size: 0.75rem;
+    }
+    .page-node-type-landing-page .paragraph--hero .cover-small .hero-footer .card__actionbar .btn {
+        min-width: 100px;
+    }
+}
