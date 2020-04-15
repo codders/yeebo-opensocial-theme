@@ -1,10 +1,7 @@
-/* removing margin of last item */
-.body-text p:last-child,
-.field p:last-child {
-    margin-bottom: 0;
+/* Tweaking buttons on landing page */
+.page-node-type-landing-page .btn-lg {
+    font-size: 0.75rem;
 }
-
-/* make sure to keep some space between text and vote widget */
-.body-text + .vote-widget {
-    margin-top: 0.75rem;
+.page-node-type-landing-page .paragraph--hero .cover-small .hero-footer .card__actionbar .btn {
+    min-width: 100px;
 }
