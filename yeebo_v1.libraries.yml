@@ -6,11 +6,13 @@ global-styling:
       css/typo.css: { weight:2000 }
       css/calendar.css: { weight:2000 }
       css/landing-page.css: { weight:2000 }
+      css/form.css: { weight:2000 }
 
 global-scripts:
   version: 1.x
   js:
     js/fullcalendar.config.js: {}
+    js/form.js: {}
 
 maintenance:
   version: 1.x

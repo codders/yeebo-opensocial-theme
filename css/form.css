@@ -1,0 +1,10 @@
+input[id^="edit-group-type"],
+label[for^="edit-group-type"],
+label[for^="edit-group-type"] + div {
+    display: none !important;
+}
+input[id^="edit-group-type-flexible"],
+label[for^="edit-group-type-flexible"],
+label[for^="edit-group-type-flexible"] + div {
+    display: block !important;
+}
