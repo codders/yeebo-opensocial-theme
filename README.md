@@ -4,6 +4,7 @@ Created by Beat and Arthur
 
 ## Changelog
 
+- Removed email from user profile.
 - Reducing group type option selection to "flexible" only, using CSS and JS
 - Calendar styles added, ready installing Fullcalendar View module online
 - Feedback link highlighted on landing page
